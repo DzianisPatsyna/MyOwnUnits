@@ -8,6 +8,7 @@
     "test": "test"
   },
   "scripts": {
+    "onlyTest": "gulp onlyTest",
     "test": "gulp test",
     "test:coverage": "gulp test:coverage",
     "lint": "eslint ./"

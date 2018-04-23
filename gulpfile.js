@@ -67,3 +67,8 @@ gulp.task('lint', () => {
 
 gulp.task('test', ['lint', 'test:coverage'], () => {
 });
+
+gulp.task('onlyTest', () => {
+    return gulp.src(testSources)
+    .pipe(jasmine(jasmineOpts))
+});
