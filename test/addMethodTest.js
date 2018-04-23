@@ -22,7 +22,7 @@ describe('tests for add method', () => {
 
         expect(instance.add(1, 2, 3)).toBeFalsy();
         expect(instance.add([1], [2], [3])).toBeFalsy();
-        expect(instance.add('string', 'string', 'string')).toBeFalsy();
+        expect(instance.add('string', 'string', "string'")).toBeFalsy();
 
         expect(instance.add()).toBeFalsy();
         expect(instance.add(null)).toBeFalsy();
