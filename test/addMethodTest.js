@@ -35,7 +35,7 @@ describe('tests for add method', () => {
     });
 
     it('should add numbers if their length to equal two', () => {
-        expect(instance.add(2, 2)).toEqual(5);
+        expect(instance.add(2, 2)).toEqual(4);
         expect(instance.add(3, 0)).toEqual(3);
         expect(instance.add(0, 3)).toEqual(3);
         expect(instance.add(11, 12)).toEqual(23);
