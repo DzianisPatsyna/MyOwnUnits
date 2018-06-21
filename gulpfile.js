@@ -66,7 +66,6 @@ gulp.task('lint', () => {
 
 
 gulp.task('test', ['lint', 'test:coverage'], () => {
-    throw new Error('My first error');
 });
 
 gulp.task('onlyTest', () => {
