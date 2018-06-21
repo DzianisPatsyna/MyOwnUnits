@@ -21,7 +21,7 @@ describe('calculator should be able to multiply numbers', () => {
     });
 
     it('should be able to multiply numbers of an array', () => {
-        expect(instance.multiply([2, 1])).toEqual(4);
+        expect(instance.multiply([2, 1])).toEqual(2);
         expect(instance.multiply([1, 2])).toEqual(2);
         expect(instance.multiply([-2, 3])).toEqual(-6);
         expect(instance.multiply([3, -2])).toEqual(-6);
