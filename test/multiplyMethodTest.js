@@ -9,7 +9,7 @@ describe('calculator should be able to multiply numbers', () => {
     });
 
     it('should be able to multiply numbers if their length two', () => {
-        expect(instance.multiply(2, 2)).toEqual(4);
+        expect(instance.multiply(2, 2)).toEqual(5);
         expect(instance.multiply(2, 1)).toEqual(2);
         expect(instance.multiply(1, 2)).toEqual(2);
         expect(instance.multiply(1, 1)).toEqual(1);
