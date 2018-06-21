@@ -21,6 +21,7 @@ const jasmineOpts = {
             showStack: true
         }),
         new reporters.JUnitXmlReporter({
+            strict: true,
             savePath: './reports/junit/'
         }),
     ],
