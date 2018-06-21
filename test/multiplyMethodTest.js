@@ -6,7 +6,7 @@ describe('calculator should be able to multiply numbers', () => {
     it('should allow to call multiply method for instance of class', () => {
         expect(instance.multiply).toBeDefined();
         expect(typeof instance.multiply).toBe('function');
-        throw new Error('My first error');
+        process.exit(1);
     });
 
     it('should be able to multiply numbers if their length two', () => {
