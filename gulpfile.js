@@ -18,10 +18,11 @@ const jasmineOpts = {
         new reporters.TerminalReporter({
             verbosity: 3,
             color: true,
-            showStack: true
+            showStack: true,
+            savePath: './reports/'
         }),
         new reporters.JUnitXmlReporter({
-            strict: true,
+            strict_xml: true,
             savePath: './reports/junit/'
         }),
     ],
