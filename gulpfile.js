@@ -19,10 +19,8 @@ const jasmineOpts = {
             verbosity: 3,
             color: true,
             showStack: true,
-            savePath: './reports/'
         }),
         new reporters.JUnitXmlReporter({
-            strict_xml: true,
             savePath: './reports/junit/'
         }),
     ],
